@@ -26,7 +26,6 @@ public class InputReader {
 				}			
 				br.close();
 				map.put(file, stringLines);
-
 			} catch (IOException e) { 
 				e.printStackTrace();
 			}
